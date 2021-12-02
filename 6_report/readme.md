@@ -22,12 +22,10 @@
 -   User friendly.
 -   Low cost and Robust system.
 
-
 ## WEAKNESS
 -   Usually prefferd in Countries where temperatures are too low.
 -   Engine should be on to initiate this activity.
 -   More number of sensors required if the vehicle have more seats.
-
 
 ## OPPORTUNITIES
 -   It can be implemented by having both heater and ac.
