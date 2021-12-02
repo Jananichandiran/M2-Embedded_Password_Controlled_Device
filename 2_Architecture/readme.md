@@ -7,7 +7,14 @@
 
 ## Block Diagram
 
-![M2 block diagram (1)](https://user-images.githubusercontent.com/94219623/144355462-8031fffb-17bc-47da-b516-1968cab831ca.jpg)
+
+## Structural Diagram
+
+![Block Diagram](https://user-images.githubusercontent.com/94219623/144397951-1fd5fe90-1954-4801-a3bb-e626d1447e76.png)
+![Flowchart](https://user-images.githubusercontent.com/94219623/144397960-94afb2eb-e074-4502-855b-6d8e440a7941.png)
+
+
+
 
 
  
