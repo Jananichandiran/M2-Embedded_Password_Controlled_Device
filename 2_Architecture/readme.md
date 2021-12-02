@@ -7,6 +7,7 @@
 
 ## Block Diagram
 
+![BlockDiagram](https://user-images.githubusercontent.com/94219623/144398750-8d53266e-03ce-4e0a-85a3-3df441b84f42.jpg)
 
 ## Structural Diagram
 
