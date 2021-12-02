@@ -66,7 +66,3 @@
 |    LR03    |     	user have to turn on or off the vehicle AC          |    	Implemented          |
 |    LR04   |     	System will display the temperature value inside the vehicle         |    	Implemented          |
 |    LR05    |     	System will stopped working once vehicle is Stopped Not        |    	Implemented          |
-
-
-
-
