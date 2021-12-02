@@ -1,26 +1,19 @@
-#ifndef ACTIVITY1_H_INCLUDED
-#define ACTIVITY1_H_INCLUDED
-
-#define F_CPU 16000000UL
-#define LED_PORT (PORTB)
-#define LED_PIN  (PORTB0)
-#define BUTTON_SENSOR  (PORTD0)
-#define TEMP_SENSOR  (PORTD1)
-#include <util/delay.h>
+  
+#ifndef _HEADER1_H_
+#define _HEADER1_H_
 #include <avr/io.h>
 
 
+#define SET_LED_AS_OUTPUT DDRB |=(1<<PB0)
+#define SET_BUTTON_AS_INPUT DDRD &=(1<<PD0)
+#define SET_HEATER_AS_INPUT DDRD &=(1<<PD4)
+#define PULL_UP_BUTTON PORTD |=(1<<PD0)
+#define PULL_UP_HEATER PORTD |=(1<<PD4)
+#define BUTTON_ON !(PIND &(1<<PD0))
+#define HEATER_ON !(PIND &(1<<PD4))
+#define LED_ON PORTB |=(1<<PB0)
+#define LED_OFF PORTB &=~(1<<PB0)
 
+void peripheral_init();
 
-void peripheral_init(void);
-
-void TurnLED_ON();
-
-
-void TurnLED_OFF();
-
-
-int activity1_LED(void);
-
-
-#endif // ACTIVITY1_H_INCLUDED
+#endif
